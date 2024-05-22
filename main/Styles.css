@@ -1,0 +1,8 @@
+.contenedor{
+    height: 100px;
+    flex: auto;
+    background-color: blueviolet;
+    border-radius: 100px;
+    color: orange;
+    text-align: center;
+}
