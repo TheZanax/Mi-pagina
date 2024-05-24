@@ -56,13 +56,13 @@ div{
 }
 .content-container {
     display: flex;
-    background-color: white;
+    background-color: none;
     flex-direction: column;
 }
 
 .middle-content {
     flex-grow: 1;
-    background-color: #fff; /* Color de fondo para separar visualmente */
+    background-color: none;
     padding: 20px;
 }
 
