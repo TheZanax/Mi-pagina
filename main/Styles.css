@@ -2,10 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-        background-image: url('Moto.jpg');
-        background-size: cover; /* Para que la imagen cubra todo el fondo */
-        background-repeat: no-repeat; /* Evita que la imagen se repita */
-        background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+    background-color: white;
 }
 
 header {
@@ -32,8 +29,8 @@ header {
     text-align: center;
     background: url('Zapatos\ Zapatudo.png') no-repeat center center;
     background-size:cover;
-    padding: 20px;
-    margin: 10;
+    padding: 0px;
+    margin: 0;
 }
 
 .banner img {
@@ -74,6 +71,7 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
 .main-content {
     padding: 20px;
 }
