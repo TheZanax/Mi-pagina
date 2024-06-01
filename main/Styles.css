@@ -1,19 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url('assets/fondo\ maxivo\ de\ ropa.jpg') no-repeat center center;
+    margin: 0%;
+    padding: 0px;
+    background:url('https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=600')no-repeat center center;
     background-size: cover;
-    width: auto;
-    height: auto;
 }
 
 header {
     background: url('https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center;
     background-size: cover;
-    color: #c920f3d7;
     width: 100%;
-    height: auto;
+    height: 15%;
     margin:auto;
     padding: 0px;
     display: flex;
@@ -25,27 +22,95 @@ footer {
     color: #fff;
     font-family: fantasy;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
 }
-h2{
-    color: lawngreen;
-    text-decoration-color: blue;
+
+.contenido-del-inicio h1, h2{
+    color: green;
+    text-decoration-line: underline;
+}
+.contenido-del-inicio {
+    background-color: none;
+    background: url('assets/fondo\ sapatos\ marrones.jpg');
+    background-size: cover;
+    margin-top: 0px;
+    padding: 100px;
+    color: green;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    text-shadow: 
+    -1px -1px 0 white,  
+    1px -1px 0  white,
+    -1px  1px 0 white,
+    1px  1px 0  white;
+    font-style: normal;
+}
+.contenido-del-inicio2 {
+    background-color: none;
+    background: url('assets/fondo\ con\ ropa.jpg');
+    background-size: cover;
+    margin-top: 0px;
+    padding: 100px;
+    color: green;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    text-shadow: 
+    -1px -1px 0 white,  
+    1px -1px 0  white,
+    -1px  1px 0 white,
+    1px  1px 0  white;
+    font-style: normal;
+}
+.contenido-del-medio{
+    text-align: center;
+    text-decoration-line: underline;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: green;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    text-shadow: 
+    -1px -1px 0 white,  
+    1px -1px 0  white,
+    -1px  1px 0 white,
+    1px  1px 0  white;
+    font-style: normal;
+}
+.Celdas h2{
+    color: green;
+    text-decoration-color: red;
     width: 100%;
     text-decoration-line: underline;
+    text-shadow: 
+    -1px -1px 0 white,  
+    1px -1px 0  white,
+    -1px  1px 0 white,
+    1px  1px 0  white;
+    font-style: normal;
+    
+}
+.Celdas {
+    background: url('assets/fondo\ maxivo\ de\ ropa.jpg');
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 98.05%;
+    margin-top: 0px;
+    margin-left: -1.8px;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 69%;
+    width: 75%;
     padding: 0px;
 }
-.banner {
-    text-align: center;
-    padding: 0px;
-    margin-top: 80px;
-}
+
 
 .logo img {
     max-height: 100px;
@@ -57,35 +122,13 @@ h2{
     color: lightgreen;
     margin-left: 18px;
 }
-
 .content-container {
     display: flex;
     background-color: none;
     flex-direction: column;
 }
 
-.middle-content {
-    flex-grow: 1;
-    background-color: none;
-    padding: 20px;
-}
 
-.main-content {
-    padding: 0px;
-    margin: 0;
-}
-
-footer {
-    background-color: #3516e6;
-    color: #fff;
-    font-family: fantasy;
-    text-align: center;
-    padding: 10px 0;
-}
-
-.main-content {
-    padding: 20px;
-}
 .about-section {
     margin-top: 0px;
 }
@@ -105,13 +148,26 @@ footer {
     height: auto;
     border-radius: 5px;
 }
-.product h2 {
-    margin-top: 2000px;
+.product h1 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 
+    -1px -1px 0 black,  
+    1px -1px 0  black,
+    -1px  1px 0 black,
+    1px  1px 0  black;
 }
 .product h3 {
     text-decoration-line: underline;
-    color: lawngreen;
+    font-weight: bold;
+    color: green;
     margin-top: 10px;
+    text-shadow: 
+    -1px -1px 0 white,  
+    1px -1px 0  white,
+    -1px  1px 0 white,
+    1px  1px 0  white;
+    font-style: normal;
 }
 .product .price {
     font-weight: bold;
