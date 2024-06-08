@@ -298,4 +298,73 @@ footer a{
     margin-top: -30px;
 }
 
+.Fondo{
+    background: url('assets/Fondo\ los\ 80.jpg') center no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-shadow: 
+    -1px -1px 0 white,  
+    1px -1px 0  white,
+    -1px  1px 0 white,
+    1px  1px 0  white;
+}
+.Redes {
+    display: flex;
+    flex-direction:row-reverse;
+}
+.Redes img{
+    display: flex;
+    flex-direction: row;
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin-top: -30px;
+}
+.RedesB {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin-top: -190px;
+}
+.RedesB img{
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin-top: -30px;
+}
+.Redes1{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    width: auto;
+}
+.Redes1 img{
+    display: flex;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin-top: -30px;
+}
+.Redes2{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+.Redes2 img{
+    display: flex;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin-top: -30px;
+}
+
+
 
