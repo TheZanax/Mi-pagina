@@ -1,13 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Playfair Display", serif;
     margin: 0%;
     padding: 0px;
-    background:url('https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=600')no-repeat center center;
-    background-size: cover;
 }
-
+a {
+    text-decoration: none;
+}
 header {
-    background: url('https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center;
+    background-color: rgb(0, 0, 0,0.5);
     background-size: cover;
     width: 100%;
     height: 15%;
@@ -17,8 +17,11 @@ header {
     align-items: center;
     position: fixed;
 }
+header a {
+    color: white;
+}
 footer {
-    background-color: #0f78b4;
+    background-color: #000000;
     color: #fff;
     font-family: fantasy;
     text-align: center;
@@ -34,49 +37,48 @@ footer a{
     font-weight: 1000px;
 }
 .contenido-del-inicio h1, h2{
-    color: green;
-    text-decoration-line: underline;
+    color:  rgb(255, 255, 255);
+    text-decoration-line: none;
 }
 .contenido-del-inicio {
-    background-color: none;
-    background: url('assets/fondo\ sapatos\ marrones.jpg');
+    background: url('assets/Fondo\ Ladrillos.jpg');
     background-size: cover;
     margin-top: 0px;
     padding: 100px;
-    color: green;
+    color: rgb(255, 255, 255);
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 10px;
     text-shadow: 
-    -1px -1px 0 white,  
-    1px -1px 0  white,
-    -1px  1px 0 white,
-    1px  1px 0  white;
+    -1px -1px 0 black,  
+    1px -1px 0  black,
+    -1px  1px 0 black,
+    1px  1px 0  black;
     font-style: normal;
 }
 .contenido-del-inicio2 {
-    background-color: none;
-    background: url('assets/fondo\ con\ ropa.jpg');
+    background-color: lightblue;
     background-size: cover;
     margin-top: 0px;
     padding: 100px;
-    color: green;
+    color: rgb(255, 255, 255);
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 10px;
     text-shadow: 
-    -1px -1px 0 white,  
-    1px -1px 0  white,
-    -1px  1px 0 white,
-    1px  1px 0  white;
+    -1px -1px 0 black,  
+    1px -1px 0  black,
+    -1px  1px 0 black,
+    1px  1px 0  black;
     font-style: normal;
 }
 .contenido-del-medio{
+    background-color: white;
     text-align: center;
-    text-decoration-line: underline;
+    text-decoration-line: none;
     margin-bottom: 10px;
     padding: 30px;
-    color: green;
+    color: black;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 10px;
@@ -88,25 +90,25 @@ footer a{
     font-style: normal;
 }
 .Celdas h2{
-    color: green;
+    color: rgb(255, 255, 255);
     text-decoration-color: red;
     width: 100%;
-    text-decoration-line: underline;
+    text-decoration-line: none;
     text-shadow: 
-    -1px -1px 0 white,  
-    1px -1px 0  white,
-    -1px  1px 0 white,
-    1px  1px 0  white;
+    -1px -1px 0 black,  
+    1px -1px 0  black,
+    -1px  1px 0 black,
+    1px  1px 0  black;
     font-style: normal;
     
 }
 .Celdas {
-    background: url('assets/fondo\ maxivo\ de\ ropa.jpg');
+    background: url('assets/ladrillos\ blancos.jpg');
     background-size: cover;
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 98.05%;
+    width: 100%;
     margin-top: 0px;
     margin-left: -1.8px;
 }
@@ -126,13 +128,18 @@ footer a{
 
 .navigation a {
     font-size: 20px;
-    text-decoration-line: underline;
-    color: lightgreen;
+    text-decoration-line: none;
+    color: lightblack;
     margin-left: 40px;
 }
 .content-container {
     display: flex;
-    background-color: none;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    align-items: center;
+}
+.content-container1 {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -168,15 +175,15 @@ footer a{
     1px  1px 0  black;
 }
 .product h3 {
-    text-decoration-line: underline;
+    text-decoration-line: none;
     font-weight: bold;
-    color: green;
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     text-shadow: 
-    -1px -1px 0 white,  
-    1px -1px 0  white,
-    -1px  1px 0 white,
-    1px  1px 0  white;
+    -1px -1px 0 black,  
+    1px -1px 0  black,
+    -1px  1px 0 black,
+    1px  1px 0  black;
     font-style: normal;
 }
 .product .price {
@@ -184,15 +191,16 @@ footer a{
     color: #01e659;
 }
 .Seccion-Formulario{
+    background: url('assets/Fondo\ Ladrillos.jpg');
     margin-top: 70px;
-    background: url('assets/Zapatos\ Zapatudo\ fondo\ 2.jpg') center no-repeat;
     background-size: cover;
     text-align: center;
     display: flex;
-    width: 98.05%;
+    width: 100%;
     margin-top: 0px;
-    margin-right: -155px;
-    margin-left: -1.8px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: -80px;
 }
 .formulario{
     margin-top: 170px;
@@ -204,9 +212,9 @@ footer a{
     margin-left: 0px;
 }
 .formulario h1, label{
-    text-decoration-line: underline;
+    text-decoration-line: none;
     font-weight: bold;
-    color: green;
+    color: white;
     margin-top: 10px;
     text-shadow: 
     -1px -1px 0 black,  
@@ -219,4 +227,75 @@ footer a{
     font-size: 25px;
     align-items: center;
 }
+.Fondo{
+    background: url('assets/Fondo\ Ladrillos.jpg');
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-shadow: 
+    -1px -1px 0 black,  
+    1px -1px 0  black,
+    -1px  1px 0 black,
+    1px  1px 0  black;
+}
+.Fondo h2{
+    color: rgb(255, 255, 255);
+}
+.Redes {
+    display: flex;
+    flex-direction:row-reverse;
+}
+.Redes img{
+    display: flex;
+    flex-direction: row;
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin-top: -30px;
+}
+.RedesB {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin-top: -190px;
+}
+.RedesB img{
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    margin-top: -30px;
+}
+.Redes1{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    width: auto;
+}
+.Redes1 img{
+    display: flex;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin-top: -30px;
+}
+.Redes2{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+.Redes2 img{
+    display: flex;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin-top: -30px;
+}
+
 
