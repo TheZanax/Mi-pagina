@@ -3,9 +3,6 @@ body {
     margin: 0%;
     padding: 0px;
 }
-a {
-    text-decoration: none;
-}
 header {
     background-color: rgb(0, 0, 0,0.5);
     background-size: cover;
@@ -16,12 +13,15 @@ header {
     display: flex;
     align-items: center;
     position: fixed;
+    }
+a {
+    text-decoration: none;
 }
 header a {
     color: white;
 }
 footer {
-    background-color: #000000;
+    background-color: #000000c9;
     color: #fff;
     font-family: fantasy;
     text-align: center;
@@ -36,12 +36,22 @@ footer a{
     padding: 10px;
     font-weight: 1000px;
 }
+h1,h2{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+p, h3{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 .contenido-del-inicio h1, h2{
     color:  rgb(255, 255, 255);
     text-decoration-line: none;
 }
 .contenido-del-inicio {
-    background: url('assets/Fondo\ Ladrillos.jpg');
+    background-color: black;
     background-size: cover;
     margin-top: 0px;
     padding: 100px;
@@ -57,7 +67,7 @@ footer a{
     font-style: normal;
 }
 .contenido-del-inicio2 {
-    background-color: lightblue;
+    background-color: rgb(24, 24, 24);
     background-size: cover;
     margin-top: 0px;
     padding: 100px;
@@ -103,14 +113,14 @@ footer a{
     
 }
 .Celdas {
-    background: url('assets/ladrillos\ blancos.jpg');
+    background-color: rgb(24, 23, 23);
     background-size: cover;
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 98%;
     margin-top: 0px;
-    margin-left: -1.8px;
+    margin-left: -2.8px;
 }
 
 .header-container {
@@ -191,7 +201,7 @@ footer a{
     color: #01e659;
 }
 .Seccion-Formulario{
-    background: url('assets/Fondo\ Ladrillos.jpg');
+    background: black;
     margin-top: 70px;
     background-size: cover;
     text-align: center;
@@ -228,7 +238,7 @@ footer a{
     align-items: center;
 }
 .Fondo{
-    background: url('assets/Fondo\ Ladrillos.jpg');
+    background-color: rgba(14, 89, 133, 0.836);
     background-size: cover;
     margin-top: 0px;
     margin-left: 0px;
@@ -297,74 +307,5 @@ footer a{
     width: 80px;
     margin-top: -30px;
 }
-
-.Fondo{
-    background: url('assets/Fondo\ los\ 80.jpg') center no-repeat;
-    background-size: cover;
-    margin-top: 0px;
-    margin-left: 0px;
-    text-shadow: 
-    -1px -1px 0 white,  
-    1px -1px 0  white,
-    -1px  1px 0 white,
-    1px  1px 0  white;
-}
-.Redes {
-    display: flex;
-    flex-direction:row-reverse;
-}
-.Redes img{
-    display: flex;
-    flex-direction: row;
-    border-radius: 100%;
-    height: 180px;
-    width: 180px;
-    margin-top: -30px;
-}
-.RedesB {
-    display: flex;
-    flex-direction: row-reverse;
-    border-radius: 100%;
-    height: 180px;
-    width: 180px;
-    margin-top: -190px;
-}
-.RedesB img{
-    display: flex;
-    flex-direction: row-reverse;
-    border-radius: 100%;
-    height: 180px;
-    width: 180px;
-    margin-top: -30px;
-}
-.Redes1{
-    margin-top: -50px;
-    display: flex;
-    flex-direction: row-reverse;
-    height: auto;
-    width: auto;
-}
-.Redes1 img{
-    display: flex;
-    border-radius: 100%;
-    height: 80px;
-    width: 80px;
-    margin-top: -30px;
-}
-.Redes2{
-    margin-top: 36px;
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: auto;
-}
-.Redes2 img{
-    display: flex;
-    border-radius: 100%;
-    height: 80px;
-    width: 80px;
-    margin-top: -30px;
-}
-
 
 
